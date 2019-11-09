@@ -1,6 +1,7 @@
 require 'pry'
 
-def hello(array)
+def hello = ("Mike","Danny","Sam") { |name|
+  puts "Him #{name}" }
   i = 0
   while i < array.length
     yield(array[i])
@@ -9,4 +10,3 @@ def hello(array)
 end
 
 
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
