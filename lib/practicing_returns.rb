@@ -10,4 +10,3 @@ def hello = ("Mike","Danny","Sam") { |name|
 end
 
 
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
